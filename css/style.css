@@ -1,0 +1,1382 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+/* ============Section Header================= */
+.bg-007878 {
+    background-color: #007878;
+    padding: 10px 0px;
+}
+
+.header {
+    display: flex;
+}
+
+#header-img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    display: inline-block;
+}
+
+.header-list {
+    display: flex;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.header-phone {
+    display: flex;
+}
+
+.header-span {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* ============Section Navbar================= */
+.bg-light {
+    background-color: #fff !important;
+}
+
+#nav-snobella {
+    color: #000000;
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* ============Section Slider================= */
+
+.bg-FFE2E0 {
+    background: #FFE2E0;
+}
+
+
+.products {
+    display: flex; 
+}
+
+.products-span {
+    color: #DF4244;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 170%;
+}
+
+.products-header {
+    color: #212121;
+    font-family: Rubik;
+    font-style: normal;
+}
+
+.products-text {
+    color: rgba(33, 33, 33, 0.75);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.shop {
+    background: #206363;
+    color:  #FFFFFF;
+    font-family: Poppins;
+    font-style: normal;
+    border-radius: 8px;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.shop::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rosybrown;
+    transform: translateX(-100%);
+    z-index: -1;
+    transition: 0.2s;
+}
+
+.shop:hover::before{
+    transform: translateX(0);
+}
+
+.shop:hover {
+    color:black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* ============Section Icons================= */
+
+.bg-F7F7F7 {
+    background: #F7F7F7;
+    margin-top: 40px;
+}
+
+
+.icons {
+    display: flex;
+}
+
+.icons-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%;
+}
+
+.icons-img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+
+/* ============Section Bags================= */
+
+.bags {
+    display: flex;
+    background-color: #fff;
+}
+
+.bags-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    color: #000000;
+    padding-top: 18px; 
+}
+
+.bg-fff {
+    background-color: #fff;
+}
+
+.bags-one {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E5E5E5;
+}
+
+.bags-two {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E5E5E5;
+}
+
+.bags-three {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E5E5E5;  
+}
+
+.bags-four {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E5E5E5;   
+}
+
+/* ============Section Featured Products================= */
+.all-products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-header {
+    color: #000000;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.all-view {
+    color: #000000;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.product-img-one{
+    width: 100%;
+    height: 245px;
+    object-fit: contain;
+}
+
+.img-star{
+    width: 100%;
+    height: 14px;
+    object-fit: contain;
+}
+
+.featured-text {
+    color: #000000;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.featured-span-one {
+    color: #F75145;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.featured-span-two {
+    color: rgba(54, 54, 54, 0.75);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.add-card {
+    color: #212121;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    border: 1px solid #212121;
+    border-radius: 8px;
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    
+}
+
+.add-card::before{
+    content: "";
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: 0.2s;
+    z-index: -1;
+    background-color:slategrey;
+}
+
+.add-card:hover::before {
+    transform: translateY(0);
+}
+
+
+.featured-new {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 8px;
+    background: #43D167;
+    padding: 5px 20px;
+    transition: 0.2;
+}
+
+.featured-new:hover {
+    transform: scale(1.3);
+}
+
+.product-one {
+    background: #F9F9F9;
+    border-radius: 8px;
+    padding: 15px 15px;
+    margin-right: 10px;  
+}
+
+.featured-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+#featured-30{
+    background-color: #DF4244;
+}
+
+.featured-products {
+    display: flex;
+}
+
+
+/* ============Section Betseller Products================= */
+.betseller {
+    background-color: #FFF7F7;
+}
+
+.betseller-one {
+    background-color: #FFFFFF;
+}
+
+.all-betseller {
+    padding-top: 10px;
+}
+
+#betseller-id {
+    color: #212121;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    border: 1px solid #212121;
+    border-radius: 8px;
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;  
+}
+
+#betseller-id::before{
+    content: "";
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(100%);
+    transition: 0.2s;
+    z-index: -1;
+    background-color:silver;
+}
+
+#betseller-id:hover::before {
+    transform: scaleX(0);
+}
+
+/* ============Section Discount Products================= */
+#discount-card {
+    color: #212121;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    border: 1px solid #212121;
+    border-radius: 8px;
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;  
+}
+
+#discount-card::before{
+    content: "";
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    transform: scaleY(100%);
+    transition: 0.2s;
+    z-index: -1;
+    background-color:rgba(158, 158, 158, 0.35)
+}
+
+#discount-card:hover::before {
+    transform: scaleY(0);
+}
+
+/* ============Section Snobella================= */
+.snobella-main {
+    background-color: #F7F7F9;
+    border-bottom: 1px solid rgba(39, 49, 66, 0.15);  
+}
+
+.snobella {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.snobella-text {
+    color: #000000;
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.snobella-input {
+    background: #FFFFFF;
+    border: 1px solid rgba(158, 158, 158, 0.35);
+    border-radius: 8px;
+    display: inline-block;
+    background-image: url("../img/Vector2.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* ============Section Footer================= */
+.section-footer {
+    background-color: #F7F7F9;
+    padding: 20px 0px;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-text {
+    color: rgba(33, 33, 33, 0.75);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.footer-message {
+    margin-bottom: 10px;
+}
+
+.footer-icon {
+    opacity: 0.8;
+    border: 1px solid #171717;
+    border-radius: 8px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.footer-icon::before{
+    content: "";
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    transform: translateX(100%);
+    transition: 0.2s;
+    z-index: -1;
+    background-color:silver;
+}
+
+.footer-icon:hover::before {
+    transform: translateX(0);
+}
+
+.shop-list > #list-first {
+    color: #212121;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.shop-list > li {
+    color: rgba(33, 33, 33, 0.75);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.company-list > #company-firts {
+    color: #212121;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.company-list > li {
+    color: rgba(33, 33, 33, 0.75);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* ============Section All Right ================= */
+.reserved {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+
+
+/* ============Phone version====================== */
+@media only screen and (max-width:576px) {
+
+    /* ============Section Header================= */
+     .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .header-span {
+        font-size: 14px;
+        line-height: 170%;
+        display: inline-block;
+        padding-left: 5px;
+    }
+
+    .header-list {
+        font-size: 12px;
+        line-height: 120%
+    }
+
+    .header-list > li {
+        padding-left: 5px;
+    }
+
+    .header-phone {
+        margin-bottom: 5px;
+    }
+
+    /* ============Section Navbar================= */
+    #nav-snobella {
+        font-size: 20px;
+        line-height: 100%;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        text-align: center;
+    }
+
+    /* ============Section Slider================= */
+    .products {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .products-header {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 120%;
+        
+    }
+
+    .products-text {
+        font-size: 18px;
+        line-height: 170%;
+    
+    }
+
+    .shop {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 170%;
+        display: inline-block;
+        width: 110px;
+        height: 52px;
+        text-align: center;
+        padding-top: 10px;
+    
+    }
+
+    .character {
+        width: 300px;
+        height: 241px;
+        object-fit: cover;
+    }
+
+    /* ============Section Icons================= */
+
+    .icons {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .icons-text {
+        line-height: 170%;
+        font-size: 14px;
+    }
+
+    .bg-F7F7F7 {
+        margin-top: 10px;
+    }
+
+    .icons-one {
+        margin-bottom: 10px;
+        margin-right: 48px;
+    }
+
+    .icons-two {
+        margin-bottom: 10px;
+        margin-right: 70px;
+    }
+
+    .icons-three {
+        margin-bottom: 10px;
+        margin-right: 26px;
+    }
+
+    /* ============Section Bags================= */
+    .bg-fff {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bags {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bags-text {
+        font-size: 18px;
+        line-height: 170%;
+    }
+
+
+    .bags-img {
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+    }
+
+    .bags-img-two {
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+    }
+
+    .bags-img-three {
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+    }
+
+    .bags-img-four {
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+    }
+
+    .bags-one {
+        margin-bottom: 5px;
+        padding: 0px 15px; 
+    }
+
+    .bags-two {
+        margin-bottom: 5px;
+        padding: 0px 27px; 
+    }
+
+    .bags-three {
+        margin-bottom: 5px;
+        padding: 0px 23px; 
+    }
+
+    .bags-four {
+        margin-bottom: 5px;
+        padding: 0px 11px; 
+    }
+
+    /* ============Section Featured Products================= */
+    .all-header {
+        font-size: 16px;
+        line-height: 85%;
+    }
+
+    .all-view {
+        font-size: 16px;
+        line-height: 85%;
+    }
+
+    .featured {
+        margin: 30px 0px;
+    }
+
+    .featured-text {
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    .featured-span-one {
+        font-size: 20px;
+        line-height: 170%;
+    }
+
+    .featured-span-two {
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    .add-card {
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    .featured-new {
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    .featured-products{
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .product-one {
+        margin-bottom: 10px;
+    }
+
+    /* ============Section Snobella================= */
+    .snobella-text {
+        font-size: 20px;
+        line-height: 100%;
+        padding-top: 10px;
+    }
+
+    .snobella-input {
+        width: 193px;
+        height: 48px;
+        padding-left: 5px;
+        background-size: 12%;
+    }
+
+    .snobella-main {
+        padding: 20px 0px; 
+    }
+
+
+    /* ============Section Footer================= */
+    .footer-text {
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-message > img {
+        padding-left: 31px;
+    }
+
+    .footer-icon {
+        margin-top: 20px;
+    }
+
+    .footer-phone {
+        margin: 10px 0px;
+    }
+
+    .footer-shop {
+        margin: 10px 0px;
+    }
+
+    .footer-shop > ul > li {
+        margin-bottom: 10px;
+    }
+
+    .shop-list > #list-first {
+        font-size: 18px;
+        line-height: 170%;
+    }
+
+    .shop-list > li {
+        font-size: 16px;
+        line-height: 120%;
+    }
+
+    .company-list > #company-firts {
+        font-size: 18px;
+        line-height: 170%;
+    }
+
+    .company-list > li {
+        font-size: 16px;
+        line-height: 120%;
+    }
+
+    .footer-company > ul > li {
+        margin-bottom: 10px;
+    }
+
+  
+}
+
+
+
+/* ============Tablet version====================== */
+@media (min-width:768px) and (max-width:992px) {
+
+    /* ============Section Header================= */
+     .header {
+        justify-content: space-between;
+    }
+
+    .header-list {
+        font-size: 14px;
+        line-height: 120%
+    }
+
+    .header-list > li {
+        padding-left: 10px;
+    }
+
+    .header-phone {
+        padding-top: 7px;
+    }
+
+    .header-terms {
+        padding-top: 7px;
+    }
+
+    .header-span {
+        padding-left: 5px;
+    }
+
+     /* ============Section Navbar================= */
+     #nav-snobella {
+        font-size: 30px;
+        line-height: 100%;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        text-align: center;
+    }
+
+
+    /* ============Section Slider================= */
+    .products {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .products-header {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 106%;
+    
+    }
+
+    .products-text {
+        font-size: 22px;
+        line-height: 135%;
+    
+    }
+
+    .shop {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 170%;
+        display: inline-block;
+        width: 150px;
+        height: 52px;
+        text-align: center;
+        padding-top: 10px;
+    
+    }
+
+    .character {
+        width: 436px;
+        height: 325px;
+        object-fit: contain;
+    }
+
+    /* ============Section Icons================= */
+
+    .icons {
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .icons-text {
+        line-height: 170%;
+        margin-top: 5px;
+        display: inline-block;
+        font-size: 12px;
+    }
+
+    .bg-F7F7F7 {
+        margin-top: 20px;
+    }
+
+    /* ============Section Bags================= */
+    .bg-fff {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .bags {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bags-text {
+        font-size: 18px;
+        line-height: 170%;
+    }
+
+    .bags-img {
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+    }
+
+    .bags-img-two {
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+    }
+
+    .bags-img-three {
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+    }
+
+    .bags-img-four {
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+    }
+
+    .bags-one {
+        margin-right: 5px;
+        padding: 0px 15px; 
+    }
+
+    .bags-two {
+        margin-right: 5px;
+        padding: 0px 15px; 
+    }
+
+    .bags-three {
+        margin-right: 5px;
+        padding: 0px 15px; 
+    }
+
+    .bags-four {
+        margin-right: 5px;
+        padding: 0px 15px; 
+    }
+
+    /* ============Section Featured Products================= */
+    .all-header {
+        font-size: 24px;
+        line-height: 170%;
+    }
+
+    .all-view {
+        font-size: 24px;
+        line-height: 170%;
+    }
+
+    .featured-products {
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+    .featured {
+        margin: 30px 0px;
+    }
+
+    .featured-text {
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    .featured-span-one {
+        font-size: 20px;
+        line-height: 170%;
+    }
+
+    .featured-span-two {
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    .add-card {
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    .featured-new {
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    /* ============Section Snobella================= */
+    .snobella-text {
+        font-size: 30px;
+        line-height: 100%;
+        padding-top: 10px;
+    }
+
+    .snobella-input {
+        width: 390px;
+        height: 48px;
+        padding-left: 20px;
+        background-size: 5%;
+    }
+
+    .snobella-main {
+        padding: 40px 0px; 
+    }
+
+
+    /* ============Section Footer================= */
+    .footer-text {
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    .footer {
+        justify-content: space-between;
+    }
+
+    .footer-icon {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .footer-phone {
+        margin: 20px 0px;
+    }
+
+    .shop-list > #list-first {
+        font-size: 25px;
+        line-height: 170%;
+        width: 45px;
+        height: 31px;
+    }
+
+    .shop-list > li {
+        font-size: 16px;
+        line-height: 120%;
+    }
+
+    .footer-one {
+        width: 30%;
+    }
+
+    .footer-shop > ul > li {
+        margin-bottom: 20px;
+    }
+
+    .company-list > #company-firts {
+        font-size: 25px;
+        line-height: 170%;
+        width: 82px;
+        height: 31px;
+    }
+
+    .company-list > li {
+        font-size: 16px;
+        line-height: 120%;
+    }
+
+    .footer-company > ul > li {
+        margin-bottom: 20px;
+    }
+
+    /* ============Section All Right ================= */
+    .reserved-img > img {
+        padding-left: 15px;
+        display: inline-block;
+    }  
+}
+
+
+/* ============Desktop version====================== */
+
+@media only screen and (min-width:992px) {
+
+    /* ============Section Header================= */
+    .header {
+        justify-content: space-between;
+    }
+
+    .header-list {
+        font-size: 14px;
+        line-height: 120%
+    }
+
+    .header-list > li {
+        padding-left: 15px;
+    }
+
+    .header-phone {
+        padding-top: 7px;
+    }
+
+    .header-terms {
+        padding-top: 10px;
+    }
+
+    .header-span {
+        padding-left: 5px;
+    }
+
+    /* ============Section Navbar================= */
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end !important;
+    }
+
+    #nav-snobella {
+        font-size: 40px;
+        line-height: 100%;
+    }
+
+
+    /* ============Section Slider================= */
+    .products {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .products-header {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 118%;
+    
+    }
+
+    .products-text {
+        font-size: 24px;
+        line-height: 125%;
+    
+    }
+
+    .shop {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 170%;
+        display: inline-block;
+        width: 192px;
+        height: 52px;
+        text-align: center;
+        padding-top: 10px;
+    
+    }
+
+    .character {
+        width: 100%;
+        height: 380px;
+        object-fit: contain;
+    }
+
+    /* ============Section Icons================= */
+
+    .icons {
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .icons-text {
+        line-height: 170%;
+        margin-top: 5px;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .bg-F7F7F7 {
+        margin-top: 40px;
+    }
+
+    /* ============Section Bags================= */
+    .bg-fff {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .bags {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bags-text {
+        font-size: 18px;
+        line-height: 170%;
+    }
+
+    .bags-img {
+        width: 100%;
+        height: 180px;
+        object-fit: contain;
+    }
+
+    .bags-img-two {
+        width: 100%;
+        height: 180px;
+        object-fit: contain;
+    }
+
+    .bags-img-three {
+        width: 100%;
+        height: 180px;
+        object-fit: contain;
+    }
+
+    .bags-img-four {
+        width: 100%;
+        height: 180px;
+        object-fit: contain;
+    }
+
+    .bags-one {
+        margin-right: 5px;
+        padding: 0px 15px; 
+    }
+
+    .bags-two {
+        margin-right: 5px;
+        padding: 0px 15px; 
+    }
+
+    .bags-three {
+        margin-right: 5px;
+        padding: 0px 15px; 
+    }
+
+    .bags-four {
+        margin-right: 5px;
+        padding: 0px 15px; 
+    }
+
+    /* ============Section Featured Products================= */
+    .all-header {
+        font-size: 32px;
+        line-height: 170%;
+    }
+
+    .all-view {
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    .featured-products {
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+
+    .featured {
+        margin: 50px 0px;
+    }
+
+    .featured-text {
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    .featured-span-one {
+        font-size: 20px;
+        line-height: 170%;
+    }
+
+    .featured-span-two {
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    .add-card {
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    .featured-new {
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    /* ============Section Snobella================= */
+    .snobella-text {
+        font-size: 40px;
+        line-height: 100%;
+    }
+
+    .snobella-input {
+        width: 504px;
+        height: 48px;
+        padding-left: 20px;
+        background-size: 5%;
+    }
+
+    .snobella-main {
+        padding: 40px 0px; 
+    }
+
+    /* ============Section Footer================= */
+    .footer-text {
+        font-size: 16px;
+        line-height: 170%;
+    }
+
+    .footer {
+        justify-content: space-between;
+    }
+
+    .footer-icon {
+        margin-top: 50px;
+        text-align: center;
+        width: 68%;
+    }
+
+    .footer-phone {
+        margin: 20px 0px;
+    }
+
+    .shop-list > #list-first {
+        font-size: 18px;
+        line-height: 170%;
+    }
+
+    .shop-list > li {
+        font-size: 16px;
+        line-height: 120%;
+    }
+
+    .footer-one {
+        width: 25%;
+    }
+
+    .footer-shop > ul > li {
+        margin-bottom: 20px;
+    }
+
+    .company-list > #company-firts {
+        font-size: 18px;
+        line-height: 170%;
+    }
+
+    .footer-company > ul > li {
+        margin-bottom: 20px;
+    }
+
+    /* ============Section All Right ================= */
+    .reserved-img > img {
+        padding-left: 10px;
+        display: inline-block;
+    } 
+    
+}
